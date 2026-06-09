@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:55 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:24:31 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 18:40:26 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,11 +49,13 @@ FragTrap::~FragTrap( void )
 
 void FragTrap::attack( std::string const & target ) 
 {
-    if ( _hitPoints <= 0 ) {
+    if ( _hitPoints <= 0 ) 
+    {
         std::cout << "FragTrap " << _name << " cannot attack because it has no hit points left!" << std::endl;
         return;
     }
-    if ( _energyPoints <= 0 ) {
+    if ( _energyPoints <= 0 ) 
+    {
         std::cout << "FragTrap " << _name << " cannot attack because it has no energy left!" << std::endl;
         return;
     }
