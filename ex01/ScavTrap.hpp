@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:42 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 15:55:43 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:17:25 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,4 @@ public:
     void guardGate( void );
 };
 
-#endif // SCAVTRAP_HPP
+#endif

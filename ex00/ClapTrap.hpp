@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:54:58 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 15:54:59 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:17:08 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,4 @@ protected:
     int _attackDamage;
 };
 
-#endif // CLAPTRAP_HPP
+#endif

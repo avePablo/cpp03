@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:59 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 15:56:00 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:17:22 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,4 @@ public:
     void highFivesGuys( void );
 };
 
-#endif // FRAGTRAP_HPP
+#endif
