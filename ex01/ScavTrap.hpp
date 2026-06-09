@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:42 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:17:25 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:23:50 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 
 #include "ClapTrap.hpp"
 
-class ScavTrap : public ClapTrap {
+class ScavTrap : public ClapTrap 
+{
 public:
     ScavTrap( void );
     ScavTrap( std::string const & name );

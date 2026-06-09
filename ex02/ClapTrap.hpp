@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:52 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:17:17 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:24:16 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@
 #include <iostream>
 #include <string>
 
-class ClapTrap {
+class ClapTrap 
+{
 public:
     ClapTrap( void );
     ClapTrap( std::string const & name );
