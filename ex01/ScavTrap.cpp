@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:40 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:23:47 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 18:40:00 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,8 @@ ScavTrap::ScavTrap( ScavTrap const & src ) : ClapTrap( src )
 ScavTrap & ScavTrap::operator=( ScavTrap const & rhs ) 
 {
     std::cout << "ScavTrap copy assignment operator called" << std::endl;
-    if ( this != &rhs ) {
+    if ( this != &rhs ) 
+    {
         ClapTrap::operator=( rhs );
     }
     return *this;
@@ -49,11 +50,13 @@ ScavTrap::~ScavTrap( void )
 
 void ScavTrap::attack( std::string const & target ) 
 {
-    if ( _hitPoints <= 0 ) {
+    if ( _hitPoints <= 0 ) 
+    {
         std::cout << "ScavTrap " << _name << " cannot attack because it has no hit points left!" << std::endl;
         return;
     }
-    if ( _energyPoints <= 0 ) {
+    if ( _energyPoints <= 0 ) 
+    {
         std::cout << "ScavTrap " << _name << " cannot attack because it has no energy left!" << std::endl;
         return;
     }

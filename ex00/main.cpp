@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:05 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:22:43 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 18:16:49 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,6 @@ int main( void )
     clap.takeDamage(10);
     clap.attack("Skag");
     clap.beRepaired(1);
+    clap.takeDamage(10);
     return 0;
 }

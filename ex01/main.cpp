@@ -6,7 +6,7 @@
 /*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/09 15:55:31 by pabalvar          #+#    #+#             */
-/*   Updated: 2026/06/09 17:23:33 by pabalvar         ###   ########.fr       */
+/*   Updated: 2026/06/09 18:22:49 by pabalvar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 int main( void ) 
 {
-    ClapTrap clap("CL4P-TP");
-    ScavTrap scav("SC4V-TP");
+    ClapTrap clap("CLAP");
+    ScavTrap scav("SCAV");
 
     clap.attack("Bandit");
     clap.takeDamage(3);
